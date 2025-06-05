@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Arius Chrono Elite – Montre de Luxe</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    /* ======= RESET & TYPO ======= */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f2f2f2;
+      color: #333;
+      line-height: 1.6;
+      display: flex;
+      justify-content: center;
+      padding: 20px;
+    }
+    /* ======= CONTENEUR PRINCIPAL ======= */
+    .container {
+      max-width: 500px;
+      width: 100%;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+      overflow: hidden;
+    }
+    /* ======= IMAGE ======= */
+    .product-image {
+      width: 100%;
+      display: block;
+      object-fit: cover;
+    }
+    /* ======= SECTION INFO ======= */
+    .info {
+      padding: 20px;
+    }
+    .info h1 {
+      font-size: 26px;
+      margin-bottom: 10px;
+      color: #222;
+    }
+    .info .subtitle {
+      font-size: 14px;
+      color: #777;
+      margin-bottom: 15px;
+    }
+    .info .price {
+      font-size: 24px;
+      color: #b71c1c;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+    .info p {
+      font-size: 16px;
+      margin-bottom: 12px;
+    }
+    .info ul {
+      margin-left: 20px;
+      list-style-type: disc;
+      margin-bottom: 15px;
+    }
+    .info ul li {
+      margin-bottom: 6px;
+    }
+    /* ======= BOUTON ACHETER ======= */
+    .btn-buy {
+      display: inline-block;
+      background-color: #00796b;
+      color: white;
+      text-decoration: none;
+      padding: 12px 25px;
+      border-radius: 8px;
+      font-size: 16px;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+    .btn-buy:hover {
+      background-color: #00695c;
+    }
+    /* ======= INFORMATIONS SUPPLÉMENTAIRES ======= */
+    .footer-info {
+      font-size: 13px;
+      color: #555;
+      padding: 15px 20px;
+      border-top: 1px solid #eee;
+    }
+    .footer-info p {
+      margin-bottom: 6px;
+    }
+    @media(max-width: 520px) {
+      .info h1 {
+        font-size: 22px;
+      }
+      .info .price {
+        font-size: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- IMAGE DU PRODUIT : remplacez l'URL par votre lien Pinterest -->
+    <img
+      src="https://i.postimg.cc/xyz123/ta-montre-arius.jpg"
+      alt="Montre Arius Chrono Elite"
+      class="product-image"
+    >
+
+    <div class="info">
+      <h1>Arius Chrono Elite</h1>
+      <div class="subtitle">Montre automatique de luxe – Édition limitée</div>
+      <div class="price">2 950 €</div>
+
+      <p>
+        Présentation de l’<strong>Arius Chrono Elite</strong> :  
+        Cette montre de prestige allie un design raffiné à une mécanique suisse précise.  
+        Chaque pièce est assemblée à la main dans nos ateliers de Genève.
+      </p>
+
+      <h2>Détails techniques :</h2>
+      <ul>
+        <li>Mouvement : Chronographe automatique Swiss Made (valeur ETA 7750)</li>
+        <li>Boîtier : Acier inoxydable 316L brossé  
+            (diamètre : 42 mm ; épaisseur : 13 mm)</li>
+        <li>Cadran : Noir mat, index et aiguilles luminescents</li>
+        <li>Verre : Saphir ultra-résistant (traitement antireflet)</li>
+        <li>Étanchéité : 100 m (10 ATM) – Convient baignade et douche</li>
+        <li>Bracelet : Acier inoxydable 316L (boucle déployante sécurisée)</li>
+      </ul>
+
+      <h2>Caractéristiques principales :</h2>
+      <ul>
+        <li>Édition limitée (numéro gravé au dos)</li>
+        <li>Réserve de marche : 48 heures</li>
+        <li>Fonctions : Chronographe, date, petite seconde à 9 h</li>
+        <li>Garantie : 2 ans pièces et main d’œuvre</li>
+        <li>Livrée dans son écrin en cuir premium avec sur-boîte</li>
+      </ul>
+
+      <p>
+        <strong>Condition :</strong> Montre neuve, jamais portée.  
+        Livrée avec papiers d’authenticité et manuel d’utilisation.
+      </p>
+
+      <div style="text-align: center; margin-top: 25px;">
+        <!-- BOUTON ACHETER : renvoie vers paiement.html -->
+        <a href="paiement.html" class="btn-buy">Acheter maintenant</a>
+      </div>
+    </div>
+
+    <div class="footer-info">
+      <p><strong>Livraison offerte</strong> en France métropolitaine (2–5 jours ouvrés).</p>
+      <p>Livraison internationale disponible ; frais à partir de 20 € (colis suivi).</p>
+      <p>Contact : vendeur – AriusÉditions (répond sous 2 h max).</p>
+    </div>
+  </div>
+</body>
+</html>

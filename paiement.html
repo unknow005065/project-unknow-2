@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Paiement – Arius Chrono Elite</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fafafa;
+      color: #333;
+      display: flex;
+      justify-content: center;
+      padding: 30px;
+    }
+    .wrapper {
+      max-width: 450px;
+      width: 100%;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+      padding: 25px;
+      text-align: center;
+    }
+    .wrapper h1 {
+      margin-bottom: 15px;
+      font-size: 24px;
+      color: #222;
+    }
+    .wrapper p {
+      margin-bottom: 12px;
+      font-size: 16px;
+    }
+    .payment-btn {
+      display: inline-block;
+      background-color: #00796b;
+      color: white;
+      text-decoration: none;
+      padding: 12px 25px;
+      border-radius: 8px;
+      font-size: 16px;
+      transition: background 0.3s ease;
+      margin-top: 20px;
+    }
+    .payment-btn:hover {
+      background-color: #00695c;
+    }
+    .back-link {
+      display: block;
+      margin-top: 25px;
+      color: #555;
+      text-decoration: none;
+      font-size: 14px;
+    }
+    .back-link:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <h1>Paiement de votre commande</h1>
+    <p>Montant total : <strong>2 950 €</strong></p>
+    <p>
+      Pour finaliser l’achat de votre <em>Arius Chrono Elite</em>, cliquez sur le bouton ci‑dessous.
+    </p>
+    <!-- Lien vers ton moyen de paiement (PayPal, Stripe Checkout, etc.) -->
+    <a
+      href="https://www.paypal.com/paypalme/toncompte/2950"
+      class="payment-btn"
+      target="_blank"
+      rel="noopener"
+    >
+      Payer 2 950 € via PayPal
+    </a>
+
+    <!-- Si tu veux retourner à la page produit -->
+    <a href="index.html" class="back-link">← Revenir à la fiche produit</a>
+  </div>
+</body>
+</html>
